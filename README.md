@@ -18,6 +18,12 @@ bun run start    # production server on PORT (default 3000)
 
 `/api/status` returns a small JSON health payload.
 
+## Deploy to Vercel
+
+The repo ships `vercel.json`, so Vercel uses Bun to install, runs `bun run build`, and serves `dist/` as the output directory. Import the repo in Vercel and deploy, no dashboard overrides needed.
+
+`bun run start` is only for self-hosting the Bun server; Vercel serves the static build.
+
 ## Structure
 
 ```
