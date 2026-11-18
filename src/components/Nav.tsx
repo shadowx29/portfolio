@@ -110,8 +110,8 @@ export default function Nav() {
             <span className="nav-num">{link.num}.</span> {link.label}
           </a>
         ))}
-        <a className="mobile-mail" href="mailto:shadowx29@proton.me">
-          shadowx29@proton.me
+        <a className="mobile-mail" href="mailto:shadowx29.hack@outlook.com">
+          shadowx29.hack@outlook.com
         </a>
       </div>
     </header>

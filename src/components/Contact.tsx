@@ -7,7 +7,7 @@ const SOCIALS = [
   { label: "hackthebox", value: "app.hackthebox.com/shadowx29", href: "https://app.hackthebox.com/profile/shadowx29" },
 ];
 
-const EMAIL = "shadowx29@proton.me";
+const EMAIL = "shadowx29.hack@outlook.com";
 
 export default function Contact() {
   const [copied, setCopied] = useState(false);
